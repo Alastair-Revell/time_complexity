@@ -8,4 +8,4 @@ On average, the bubble sort has a complexity of $O(n^2)$. In an array of length 
 
 Because there are n elements in the array, iterating over the array has a complexity of $O(n)$.
 
-A $O(n)$ operation over a $O(n)$ sized list leads to a complexity of $O(n) * $O(n)$ or $O(n^2)$.
+A $O(n)$ operation over a $O(n)$ sized list leads to a complexity of $O(n) \cdot O(n)$ or $O(n^2)$.
