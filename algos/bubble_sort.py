@@ -11,7 +11,13 @@ alist = list(range(500))
 rnd_order= rn.sample(alist, k=500)
 bubbleSort(rnd_order)
 
-def random_list(size):
-    
-#Visualisation of BubbleSort
-#Matplotlib / pygame?
+timings = list(range(5000, 100001, 5000))
+lists = []
+
+def random_lists(size):
+    alist = list(range(size))
+    rnd_list = rn.sample(alist, k=size)
+    lists.append(rnd_list)
+    return lists
+
+print([random_lists(i) for i in timings])

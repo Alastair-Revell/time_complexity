@@ -10,7 +10,9 @@ Because there are n elements in the array, iterating over the array has a comple
 
 A $O(n)$ operation over a $O(n)$ sized list leads to a complexity of $O(n) \cdot O(n)$ or $O(n^2)$.
 
-`
+Below is a code block for a Bubble Sort Algorithm
+
+```python
 import random as rn
 
 def bubbleSort(arr):
@@ -23,4 +25,4 @@ def bubbleSort(arr):
 alist = list(range(500))
 rnd_order= rn.sample(alist, k=500)
 bubbleSort(rnd_order)
-`
+```
