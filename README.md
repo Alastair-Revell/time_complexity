@@ -44,3 +44,14 @@ This is more clear after watching the GIF below, after the first pass, 8 is in t
 This leads to the algorithm being almost twice as fast!
 
 <img src="/time_graphs/bubble_optimized.png">
+
+## Merge Sort ##
+
+Merge Sort is more conceptually complex than a bubble sort.
+
+An unsorted list is divided into sublists of 1 element. These sublists are then repeatedly sorted and merged until there is only one sublist remaining. This sublist will be the sorted list.
+
+As above, a gif is a nice way to visualise this:
+
+<img src="time_graphs/Merge-sort-example-300px.gif">
+Swfung8 [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]
