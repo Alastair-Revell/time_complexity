@@ -1,4 +1,4 @@
-algorithm# Introduction to Time-Complexity of Sorting Algorithms #
+# Introduction to Time-Complexity of Sorting Algorithms #
 
 ## Bubble Sort ##
 
@@ -33,7 +33,7 @@ bubbleSort(rnd_order)
 
 ### Optimising Bubble Sort ###
 
-It is possible to optimise the bubble sort algorithm after you note that the n-th pass places the n-th elemennt in the correct position. Thus we can avoid looking at the $n-1$ element on the $n+1$ pass. In code, we can redefine n as n-1 in each loop.
+It is possible to optimise the bubble sort algorithm after you note that the n-th pass places the n-th elemennt in the correct position. Thus we can avoid looking at the $n-1$ element on the $n+1$ pass. In code, we can redefine $n$ as $n-1$ in each loop.
 
 This leads to the algorithm being almost twice as fast!
 
