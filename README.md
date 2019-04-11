@@ -29,8 +29,12 @@ bubbleSort(rnd_order)
 
 ### Bubble Sort Times ###
 
-<img src="/time_graphs/bubble_optimized1.png">
+<img src="/time_graphs/bubble.png">
 
 ### Optimising Bubble Sort ###
 
-It is possible to optimise the bubble sort algorithm after you note that the n-th pass places the n-th elemennt in the correct position.  
+It is possible to optimise the bubble sort algorithm after you note that the n-th pass places the n-th elemennt in the correct position. Thus we can avoid looking at the <img src="/tex/efcf8d472ecdd2ea56d727b5746100e3.svg?invert_in_darkmode&sanitize=true" align=middle width=38.17727759999999pt height=21.18721440000001pt/> element on the <img src="/tex/3f18d8f60c110e865571bba5ba67dcc6.svg?invert_in_darkmode&sanitize=true" align=middle width=38.17727759999999pt height=21.18721440000001pt/> pass. In code, we can redefine n as n-1 in each loop.
+
+This leads to the algorithm being almost twice as fast!
+
+<img src="/time_graphs/bubble_optimized.png">
