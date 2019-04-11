@@ -54,4 +54,4 @@ An unsorted list is divided into sublists of 1 element. These sublists are then 
 As above, a gif is a nice way to visualise this:
 
 <img src="time_graphs/Merge-sort-example-300px.gif">
-<span style="font-size:4em">Source: Swfung8 [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]<span>
+<span style="font-size:2em">Source: Swfung8 [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]<span>
