@@ -11,6 +11,7 @@ def bubbleSort(arr):
         for j in range(0, n-i-1):
             if arr[j] > arr[j+1] :
                 arr[j], arr[j+1] = arr[j+1], arr[j]
+        n = n-1
     total_time = time.process_time() - start_time
     time_list.append(total_time)
 
@@ -33,4 +34,4 @@ plt.plot(timings, new_time_list, marker='o')
 plt.xlabel('List Size')
 plt.ylabel('CPU Time')
 plt.title('A plot examnining Bubble Sort Time Efficieny with varying List Sizes')
-plt.savefig('bubble.png')
+plt.savefig('bubble1.png')
