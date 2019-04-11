@@ -10,7 +10,7 @@ Because there are n elements in the array, iterating over the array has a comple
 
 A <img src="/tex/1f08ccc9cd7309ba1e756c3d9345ad9f.svg?invert_in_darkmode&sanitize=true" align=middle width=35.64773519999999pt height=24.65753399999998pt/> operation over a <img src="/tex/1f08ccc9cd7309ba1e756c3d9345ad9f.svg?invert_in_darkmode&sanitize=true" align=middle width=35.64773519999999pt height=24.65753399999998pt/> sized list leads to a complexity of <img src="/tex/174e1ae4eb9b0e6d211f792d24f43358.svg?invert_in_darkmode&sanitize=true" align=middle width=83.16745139999999pt height=24.65753399999998pt/> or <img src="/tex/3987120c67ed5a9162aa9841b531c3a9.svg?invert_in_darkmode&sanitize=true" align=middle width=43.02219404999999pt height=26.76175259999998pt/>.
 
-Below is a code block for a Bubble Sort Algorithm
+### Bubble Sort Code ###
 
 ```python
 import random as rn
@@ -22,7 +22,11 @@ def bubbleSort(arr):
             if arr[j] > arr[j+1] :
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
-alist = list(range(500))
-rnd_order= rn.sample(alist, k=500)
+rnd_order= rn.sample(range(1, 501), 500)
+
 bubbleSort(rnd_order)
 ```
+
+### Bubble Sort Times ###
+
+<img src="/time_graphs/bubble.png">
