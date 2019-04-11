@@ -1,5 +1,5 @@
 import pytest
-from bubble_sort import *
+from merge_sort import *
 
 def test_one():
     test_list = random_lists(5)
