@@ -27,13 +27,15 @@ rnd_order= rn.sample(range(1, 501), 500)
 bubbleSort(rnd_order)
 ```
 
-### Bubble Sort Times ###
+Below is a graph of the process time against list size: 
 
 <img src="/time_graphs/bubble.png">
 
 ### Optimising Bubble Sort ###
 
-It is possible to optimise the bubble sort algorithm after you note that the n-th pass places the n-th elemennt in the correct position. Thus we can avoid looking at the $n-1$ element on the $n+1$ pass. In code, we can redefine $n$ as $n-1$ in each loop. This is more clear after watching the GIF below, after the first pass, 8 is in the correct position and thus does not need to be sorted again.
+It is possible to optimise the bubble sort algorithm after you note that the n-th pass places the n-th elemennt in the correct position. Thus we can avoid looking at the $n-1$ element on the $n+1$ pass. In code, we can redefine $n$ as $n-1$ in each loop.
+
+This is more clear after watching the GIF below, after the first pass, 8 is in the correct position and thus does not need to be sorted again.
 
 #### Bubble Sort Gif ####
 
