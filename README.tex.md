@@ -27,7 +27,7 @@ rnd_order= rn.sample(range(1, 501), 500)
 bubbleSort(rnd_order)
 ```
 
-Below is a graph of the process time against list size: 
+Below is a graph of the process time against list size:
 
 <img src="/time_graphs/bubble.png">
 
