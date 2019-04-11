@@ -29,4 +29,6 @@ bubbleSort(rnd_order)
 
 ### Bubble Sort Times ###
 
-<img src="/time_graphs/bubble.png" width="400" height="300">
+<img src="/time_graphs/bubble.png">
+
+### Optimising Bubble Sort ### 

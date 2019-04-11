@@ -1,4 +1,4 @@
-# Introduction to Time-Complexity of Sorting Algorithms #
+algorithm# Introduction to Time-Complexity of Sorting Algorithms #
 
 ## Bubble Sort ##
 
@@ -30,3 +30,7 @@ bubbleSort(rnd_order)
 ### Bubble Sort Times ###
 
 <img src="/time_graphs/bubble.png">
+
+### Optimising Bubble Sort ###
+
+It is possible to optimise the bubble sort algorithm after you note that the n-th pass places the n-th elemennt in the correct position.  
