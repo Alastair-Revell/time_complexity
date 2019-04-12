@@ -55,3 +55,10 @@ As above, a gif is a nice way to visualise this:
 
 <img src="time_graphs/Merge-sort-example-300px.gif">
 <span style="font-size:2px">Source: Swfung8 [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]<span>
+
+### Merge Sort Time Complexity ###
+
+## Quick Sort ##
+
+The times for quick sort:
+<img src="time_graphs/quicksort.png">
